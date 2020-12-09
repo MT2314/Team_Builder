@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Title -->
-    <title>Team Builder Engineer Card</title>
+    <title>Team Builder</title>
     <!-- CSS Stylesheets -->
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e9fd0c2af5.js" crossorigin="anonymous"></script>
@@ -14,12 +15,15 @@
     <link rel="stylesheet" href="../assets/style.css">
     <!-- Bootstrap -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 jumbotron mb-3 team-heading">
+            <div class="navigation nav-bar mb-3">
                 <h1 class="text-center">My Team</h1>
             </div>
         </div>
@@ -27,24 +31,10 @@
     <div class="container">
         <div class="row">
             <div class="team-area col-12 d-flex justify-content-center">
-                
-                <div class="card profile-card-3">
-                    <div class="background-block">
-                        <i class="fa fa-glasses fa-3x"></i>
-                    </div>
-                    <div class="card-title">
-                        <h2>Justin Mccoy<small>Designer</small></h3>
-                    </div>
-                    <div class="card-body">
-                        <p><i class="far fa-id-card"></i></p>
-                        <p><i class="fa fa-github"></i></p>
-                        <p><i class="fas fa-envelope-open-text"></i></p>
-                    </div>
+                {{ team }}
             </div>
         </div>
     </div>
 </body>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </html>
